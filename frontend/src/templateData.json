@@ -1,0 +1,62 @@
+{
+  "questions_state": [
+    {
+      "question_number": "1",
+      "question_description": "Some question description for 1 question",
+      "image_url": "url",
+      "answers": [
+        {
+          "answerId": "1",
+          "answerValue": "SomeValueForAnswer",
+          "answerDescription": "SomeDescriptionForLabelAnswer"
+        },
+        {
+          "answerId": "2",
+          "answerValue": "SomeValueForAnswer",
+          "answerDescription": "SomeDescriptionForLabelAnswer"
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_description": "Some question description for 2 question",
+      "image_url": "url"
+    },
+    {
+      "question_number": "3",
+      "question_description": "Some question description for 3 question"
+    },
+    {
+      "question_number": "4",
+      "question_description": "Some question description for 4 question",
+      "answers": [
+        {
+          "answerId": "3",
+          "answerValue": "SomeValueForAnswer",
+          "answerDescription": "SomeDescriptionForLabelAnswer"
+        },
+        {
+          "answerId": "4",
+          "answerValue": "SomeValueForAnswer",
+          "answerDescription": "SomeDescriptionForLabelAnswer"
+        }
+      ]
+    }
+  ],
+  "answers_state": {
+    "first_name": "SomeFirstName",
+    "last_name": "SomeLastName",
+    "answers": [
+      {
+        "question_number": "1",
+        "answer": "Some answer for first question"
+      },
+      {
+        "question_number": "2",
+        "answer": "Some answer for second question"
+      }
+    ]
+  }
+}
+
+

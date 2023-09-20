@@ -1,0 +1,26 @@
+.infoBlock {
+    border-radius: 3px;
+    position: sticky;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+}
+
+@media (max-width: 640px) {
+    .infoBlock {
+        flex-direction: column;
+    }
+
+    .add {
+        margin-bottom: 10px;
+    }
+}

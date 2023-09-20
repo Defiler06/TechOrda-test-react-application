@@ -1,0 +1,11 @@
+.timer {
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    background-color: #c55359;
+}
+
+.timerText {
+    font-size: 18px;
+    color: #ffffff;
+}

@@ -1,0 +1,40 @@
+version: '3.0'
+services:
+  frontend:
+    image: 'frontend'
+    container_name: 'frontend'
+    build:
+      context: ./frontend
+    ports:
+      - "80:80"
+    networks:
+      - app-network
+
+  backend:
+    container_name: 'backend'
+    restart: always
+    build:
+      context: ./backend
+    image: backend
+    ports:
+      - "5000:5000"
+    depends_on:
+      - database
+    networks:
+      - app-network
+
+  database:
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - type: bind
+        source: ./data
+        target: /data/db
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

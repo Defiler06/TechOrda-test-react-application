@@ -1,0 +1,61 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.container h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.container p {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(204, 204, 204, 0.24);
+}
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+.questionNumberCell, .questionAnswer, .correctAnswerCounter {
+    text-align: center;
+}
+
+.questionNumberCell{
+    min-width: 50px;
+}
+
+.questionAnswer {
+    min-width: 150px;
+}
+
+.questionCell {
+    width: 100%;
+}
+
+.userItem {
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+    margin-top: 0;
+}
